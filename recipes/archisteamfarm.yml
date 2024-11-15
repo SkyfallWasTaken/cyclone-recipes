@@ -1,0 +1,13 @@
+name: ArchiSteamFarm
+repo: JustArchiNET/ArchiSteamFarm
+
+steps:
+  - action: download
+  - action: unzip
+  - action: inner
+  - action: link
+    win: ArchiSteamFarm.exe
+    macos: ArchiSteamFarm
+    linux: ArchiSteamFarm
+
+version: 1
